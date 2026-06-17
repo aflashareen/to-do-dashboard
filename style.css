@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: rgba(150, 129, 102, 0.718);
+display: flex; 
+justify-content: center;
+padding: 250px;
+}
+.main{
+    background-color: rgba(83, 60, 49, 0.734);
+    width: 500px;
+    border-radius: 10px;
+}
+#input{
+    padding-left:20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#btn{
+    background-color: burlywood;
+    color: rgba(83, 60, 49, 0.734);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#btn:hover{
+   background-color: rgba(83, 60, 49, 0.734); 
+}
+.initial h2{
+  color: bisque;
+  text-align: center;
+}
+.initial{
+    
+}
+.search{
+    margin-left: 140px;
+}
