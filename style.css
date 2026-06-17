@@ -52,3 +52,23 @@ padding: 250px;
     text-decoration: line-through;
     opacity: 0.6;
 }
+@media screen and (max-width: 480px) {
+body{
+padding: 20px;
+padding-top: 250px;
+}
+.main{
+    width: 700px;
+}
+#input{
+    padding-left:10px;
+    height: 30px;
+}
+#btn{
+    height: 30px;
+}
+.search{
+    margin-left: 70px;
+}
+
+}
