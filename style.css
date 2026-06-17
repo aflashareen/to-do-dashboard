@@ -11,20 +11,25 @@ padding: 250px;
     background-color: rgba(83, 60, 49, 0.734);
     width: 500px;
     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.834);
+     opacity: 80%;
 }
 #input{
     padding-left:20px;
     border: 1px solid black;
     border-radius: 2px;
+    height: 25px;
 }
 #btn{
-    background-color: burlywood;
+    background-color: bisque;
     color: rgba(83, 60, 49, 0.734);
     border: 1px solid black;
     border-radius: 2px;
+    height: 25px;
 }
 #btn:hover{
    background-color: rgba(83, 60, 49, 0.734); 
+   color: bisque;
 }
 .initial h2{
   color: bisque;
@@ -35,4 +40,15 @@ padding: 250px;
 }
 .search{
     margin-left: 140px;
+}
+.task{
+    color: bisque;
+}
+.deleteBtn{
+    background-color: burlywood;
+    color: rgba(83, 60, 49, 0.734);
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
 }
